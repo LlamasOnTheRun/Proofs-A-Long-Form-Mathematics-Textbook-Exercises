@@ -7,10 +7,10 @@ If you do reference and notice an error, please let me know in the issues tab. W
 
 My self-study approach will be the following:
 
-Try 5 exercises with pre-written answers here: https://longformmath.com/proofs-hints-%26-solutions
+Try 4 exercises with pre-written answers here: https://longformmath.com/proofs-hints-%26-solutions
 
-Try 3 exercises that is 1-2 exercises away from the given 5 exercises (And it cannot have a prewritten answer!)
+Try 3 exercises that has no prewritten answer
 
-Ex. I Choose to do the pre-written answer exercise of 1.5. This means I can choose 1.3, 1.4, or 1.6. I cannot choose 1.7 because it already has a prewritten answer
+It is best to choose the problems beforehand with the following conditions after a chapter
 
-It is best to choose the problems beforehand with the following conditions
+If you spend more than 2 hours on a problem and there is no written answer, move on. I'm sure I'll perform thought experiments along the way
