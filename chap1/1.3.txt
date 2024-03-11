@@ -56,6 +56,8 @@ Considering the two cases, we can sum up that:
 
 If (m*n)%2 == 0, then a perfect cover exists
 
+(*)
+
 (b) If I remove 1 square from the m*n chessboard, will it have a perfect cover
 
 Scratch Notes:
@@ -133,6 +135,20 @@ If the matrix is odd*odd & the spot taken away cannot be in these spots for it t
 
 Such that any Coor(Odd, Even) or Coor(Even, Odd) taken away in a odd*odd matrix will NOT lead to a perfect cover
 
+m-2*n-1
+
+Unsatisfied
+
+(5-2)*(2-1) = 3
+
+(3-2)*(2-1) = 1
+
+Satisfied
+
+(4-2)*(2-1) = 2
+
+(4-2)*(4-1) = 6
+
 Proof:
 
 For a given m*n matrix, consider three cases:
@@ -166,10 +182,22 @@ odd*odd = odd number
 When a odd number is subtracted, it will become even
 
 This falls in line with the rule:
-If (m*n)%2 == 0, then a perfect cover exists
+If (m*n)%2 == 0, then a perfect cover exists such that ((odd*odd)-1)%2 == 0
 
-However, consider the next two cases considering Coor(x,y) is the position of the removed spot on the board:
+However, consider the next case considering Coor(x,y) is the position of the removed spot on the board
 
-Case 1: A Coor(Odd, Even) is removed
+Case: A Coor(Odd, Even) or Coor(Even, Odd) is removed in a odd*odd
 
-Case 2: A Coor(Even, Odd) is removed
+Such a removal will always leave one space unattended due to a 2*1 domino needed to be satisfied, such that
+
+|(m-2)*(n-1)| % 2 == 0
+Consider a 5*5 matrix example. Any of the below spots chossen will NOT create a perfect cover
+
+
+| |X| |X| |
+|X| |X| |X|
+| |X| |X| |
+|X| |X| |X|
+| |X| |X| |
+
+(*)
