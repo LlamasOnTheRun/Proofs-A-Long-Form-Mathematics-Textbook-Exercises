@@ -5,7 +5,7 @@ Note: I like you sometimes use github to look up anwers for difficult problems (
 If you do reference and notice an error, please let me know in the issues tab. Would love to retry it if it is wrong.
 
 
-My self-study approach will be the following:
+My self-study approach will be the following. For each chapter:
 
 Try 4 exercises with pre-written answers here: https://longformmath.com/proofs-hints-%26-solutions
 
