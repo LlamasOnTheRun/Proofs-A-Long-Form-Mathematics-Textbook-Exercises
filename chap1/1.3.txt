@@ -64,8 +64,8 @@ Scratch Notes:
 
 |P|M|L|L|
 |P|M|O|O|
-|Z|N|X| |
-|Z|N|W|W|
+| |G|P|P|
+|X|G|W|W|
 
 If I take away anything here, I will not have a perfect cover
 
@@ -132,3 +132,44 @@ If the matrix is odd*odd & the spot taken away cannot be in these spots for it t
 | |X| |X| |
 
 Such that any Coor(Odd, Even) or Coor(Even, Odd) taken away in a odd*odd matrix will NOT lead to a perfect cover
+
+Proof:
+
+For a given m*n matrix, consider three cases:
+
+Case 1: A even*even matrix with 1 sqaure taken away
+
+even*even = even number
+
+When a even number is subtracted, it will become odd
+
+This breaks the rule:
+If (m*n)%2 == 0, then a perfect cover exists
+
+So no even*even board can have a perfect fit with 1 square taken away
+
+Case 2: A odd*Even matrix with 1 sqaure taken away
+
+odd*even = even number
+
+When a even number is subtracted, it will become odd
+
+This breaks the rule:
+If (m*n)%2 == 0, then a perfect cover exists
+
+So no odd*even board can have a perfect fit with 1 square taken away
+
+Case 3: A odd*odd matrix with 1 sqaure taken away
+
+odd*odd = odd number
+
+When a odd number is subtracted, it will become even
+
+This falls in line with the rule:
+If (m*n)%2 == 0, then a perfect cover exists
+
+However, consider the next two cases considering Coor(x,y) is the position of the removed spot on the board:
+
+Case 1: A Coor(Odd, Even) is removed
+
+Case 2: A Coor(Even, Odd) is removed
