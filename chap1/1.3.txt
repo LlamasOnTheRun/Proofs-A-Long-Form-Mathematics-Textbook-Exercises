@@ -60,3 +60,75 @@ If (m*n)%2 == 0, then a perfect cover exists
 
 Scratch Notes:
 
+4*4
+
+|P|M|L|L|
+|P|M|O|O|
+|Z|N|X| |
+|Z|N|W|W|
+
+If I take away anything here, I will not have a perfect cover
+
+5*6=35
+
+|L|L|K|K|L|
+|I|I|P|P|L|
+|L|L|X| |N|
+|Q|Q|Y|Y|N|
+|Z|Z|N|N|M|
+|P|P|Q|Q|M|
+
+If X was removed spot, does not work here
+
+|L|L|K|K|L|
+|I|I|P|P|L|
+|L|L|Q|Q|N|
+|Q|Q|Y|Y|N|
+|Z|Z|N|N| |
+|P|P|Q|Q|X|
+
+Same applies if I were to move to end
+
+3*3
+
+|L|L|K|   
+|A|X|K|
+|A|G|G|   
+
+Above works Coor(2,2)
+
+|L|L|K|
+|X| |K|
+|G|G| |
+
+The above does NOT work Coor(2,1)
+
+|L|L|Y|
+|K|K|Y|
+|X|Z|Z|
+
+The above does work Coor(3,1)
+
+|L|L|X|
+|K|K|H|
+|Z|Z|H|
+
+The above does work Coor(1,3)
+
+So a odd * odd works, but only when we take away a square in a certain position
+
+Preposition:
+
+If the matrix is odd*odd & the spot taken away cannot be in these spots for it to be a perfect cover
+
+| |X| |
+|X| |X|
+| |X| |
+
+| |X| |X| |
+|X| |X| |X|
+| |X| |X| |
+|X| |X| |X|
+| |X| |X| |
+
+Such that any Coor(Odd, Even) or Coor(Even, Odd) taken away in a odd*odd matrix will NOT lead to a perfect cover
