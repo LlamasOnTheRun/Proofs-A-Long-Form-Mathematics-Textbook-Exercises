@@ -19,9 +19,7 @@ A 1*1 certainly can't fit a 2*1 domino
 Neither can a 3*3 = 9
 
 |P|P|J|
-
 |L|L|J|
-
 |K|K|X| <---
 
 Therefore, odd * odd is invalid
@@ -31,27 +29,19 @@ Case 2: Even*Odd
 2*3 = 6 is possible
 
 |P|P|J|
-
 |L|L|J|
 
 7*5 = 35
 
 |L|L|K|K|L|
-
 |I|I|P|P|L|
-
 |L|L|H|H|N|
-
 |Q|Q|Y|Y|N|
-
 |Z|Z|N|N|M|
-
 |H|V|V|X|M|<--- Uh Oh!
-
 |H|Q|Q|O|O|
 
 Proof:
-<p>
 Given a chessboard is m*n, consider two cases:
 
 Case 1: The Mutiplication of m*n is odd
@@ -65,7 +55,7 @@ If m*n is even, then a 2*1 domino can evenly be distributed to the chessboard. C
 Considering the two cases, we can sum up that:
 
 If (m*n)%2 == 0, then a perfect cover exists
-</p>
+
 (b) If I remove 1 square from the m*n chessboard, will it have a perfect cover
 
 Scratch Notes:
